@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable).">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hobitse1-droid&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hobitse1-droid/market-backend-2026-3-b.git&quot;,
+    &quot;accountId&quot;: &quot;094abc2b-40cd-4398-bc2a-570564a0fcb0&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DaRNDSRTDBgPTcBBWXbLkJ4aaq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hobit/Downloads/market-backend-2026-3-b&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hobit\Downloads\market-backend-2026-3-b\market-backend-2026-3-b\src\main\java\mx\edu\tecdesoftware\market_backend_2026_3_b" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="" />
+      <created>1778518158081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778518158081</updated>
+      <workItem from="1778518162022" duration="1546000" />
+      <workItem from="1778519753952" duration="151000" />
+      <workItem from="1778520547983" duration="519000" />
+      <workItem from="1778602620720" duration="1195000" />
+      <workItem from="1778604195054" duration="1329000" />
+      <workItem from="1778777133817" duration="1239000" />
+      <workItem from="1779124056762" duration="905000" />
+      <workItem from="1779725404292" duration="5097000" />
+      <workItem from="1779809915177" duration="4236000" />
+      <workItem from="1779842701023" duration="1162000" />
+      <workItem from="1779846851073" duration="253000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore: initial Spring Boot project stup">
+      <option name="closed" value="true" />
+      <created>1778519094077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778519094077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable).">
+      <option name="closed" value="true" />
+      <created>1779813224466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779813224466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: initial Spring Boot project stup" />
+    <MESSAGE value="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable)." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable)." />
+  </component>
+</project>

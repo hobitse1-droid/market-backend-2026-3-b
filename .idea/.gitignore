@@ -1,10 +1,42 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!*/src/main/*/build/
+!*/src/test/*/build/
+
+### Logs ###
+*.log
+logs/
+
+### Secrets & Environments ###
+.env
+.env.*
+*.local.properties
+application-local.yml
+application-local.properties
+*.properties
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!*/src/main/*/bin/
+!*/src/test/*/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!*/src/main/*/out/
+!*/src/test/*/out/
+
+### NetBeans ###
+/nbproject/private/
