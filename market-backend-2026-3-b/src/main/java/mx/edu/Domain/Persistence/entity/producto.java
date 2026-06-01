@@ -13,6 +13,8 @@ public class producto {
 
     private String nombre;
 
+
+
     @Column(name = "Id_categoria")
     private String idCategoria;
 
@@ -24,6 +26,14 @@ public class producto {
 
     @Column(name = "cantidad_stock")
     private Boolean estado;
+
+    //Relacion con categoria
+    //Muchos productos pueden pertenecer a una categoria
+    @ManyToOne
+    @JoinColumn(name "id_categoria"
+    //No quiero que se mueva nada en la tabla
+    insertable = false, updatable = false)
+    private Categoria categoria;
 
     public Integer getIdproducto() {
         return idproducto;

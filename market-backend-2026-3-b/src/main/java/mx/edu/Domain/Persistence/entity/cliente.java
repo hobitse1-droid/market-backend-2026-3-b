@@ -13,4 +13,7 @@ public class cliente{
     private String direccion;
     @column (name = "correo_electronico")
     private String correoElectronico;
+
+    @OneToMany(mappedBy = "cliente")
+    private List<Compras> comprasList;
 }

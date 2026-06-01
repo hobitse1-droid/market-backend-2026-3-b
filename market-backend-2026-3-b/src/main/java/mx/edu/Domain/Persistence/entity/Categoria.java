@@ -8,6 +8,16 @@ public class Categoria {
 
     private String descripcion;
     private Boolean estado;
+    @OneToMany(mappdBy = "categoria")
+    private List<producto> productos;
+
+    @ManyToOne
+    @JoinColumn(name = "id_compra", insertable = false, updatable = false)
+    private Compra compra;
+
+    @ManyToOne
+    @JoinColumn(name = "id_producto", insertable = false, updatable = false)
+    private Producto producto
 
     public Integer getIdCategoria() {
         return idCategoria;

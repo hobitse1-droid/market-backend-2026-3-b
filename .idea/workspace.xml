@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable).">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/ProductoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/crud/ProductoCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/CompraProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/CompraProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/comprasProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/comprasProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/resources/application-pdn.properties" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/resources/application-pdn.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +95,7 @@
       <workItem from="1779809915177" duration="4236000" />
       <workItem from="1779842701023" duration="1162000" />
       <workItem from="1779846851073" duration="253000" />
+      <workItem from="1780329317350" duration="4743000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial Spring Boot project stup">
       <option name="closed" value="true" />
@@ -115,5 +123,16 @@
     <MESSAGE value="chore: initial Spring Boot project stup" />
     <MESSAGE value="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable)." />
     <option name="LAST_COMMIT_MESSAGE" value="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable)." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/CompraProducto.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

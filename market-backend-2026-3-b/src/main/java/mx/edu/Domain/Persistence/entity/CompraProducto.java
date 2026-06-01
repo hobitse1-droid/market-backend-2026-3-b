@@ -1,14 +1,24 @@
-import java.io.Serializable
+package mx.edu.tecdesoftware.market_backend_2026_3_b.persistence.entity;
 
-@Embeddable
-public class CompraproductoPK implements Serializable{
+import jakarta.persistence.*;
 
-    @Column(name = "id_compra")
-    private Integer idCompra;
+@Entity
+@Table(name = "compras_productos")
+public class CompraProducto {
+    @Id
 
-    @Column(neme = "id_producto")
-    private Integer idProducto;
+    @EmbeddedId
+    private CompraProductoPK id;
+    // Saber los productos que hay en la compra
 
-    public Integer getIdCompra()
-        return idCompra;
+    //Unir la abla en compras
+    @ManyToOne
+    @JoinColumn(name ="id_compra", insertable = false, updatable = false)
+    private Compra compra;
+
+    private Integer cantidad;
+    private double total;
+    private Boolean estado;
+
+
 }
