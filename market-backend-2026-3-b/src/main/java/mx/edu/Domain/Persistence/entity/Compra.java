@@ -20,6 +20,14 @@ public class Compra {
     @JoinColumn(name = "id_cliente", insertable = false, updatable)
     private Cliente cliente;
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
     public Integer getIdCompra() {
         return IdCompra;
     }

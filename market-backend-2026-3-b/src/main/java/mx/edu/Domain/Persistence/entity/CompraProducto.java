@@ -20,5 +20,11 @@ public class CompraProducto {
     private double total;
     private Boolean estado;
 
+    public CompraProductoPK getId() {
+        return id;
+    }
 
+    public void setId(CompraProductoPK id) {
+        this.id = id;
+    }
 }
