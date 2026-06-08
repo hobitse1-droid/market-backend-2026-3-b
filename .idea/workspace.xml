@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat(persistence): implement product repositories and entity relationships&#10;&#10;- Add @JoinColumn relationships to the corresponding entities.&#10;- Create ProductoCrudRepository interface extending Spring Data CrudRepository.&#10;- Implement ProductoRepository class with getAll() method to fetch products.">
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/mapper/ProductMaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/domain/Product.java" afterDir="false" />
+    <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save).">
+      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/domain/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/Compra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/CompraProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/CompraProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/entity/producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/ProductoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/mapper/ProductMaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/mapper/ProductMaper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,8 @@
       <workItem from="1779846851073" duration="253000" />
       <workItem from="1780329317350" duration="6126000" />
       <workItem from="1780587802561" duration="981000" />
-      <workItem from="1780588869460" duration="2958000" />
+      <workItem from="1780588869460" duration="4226000" />
+      <workItem from="1780936360630" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial Spring Boot project stup">
       <option name="closed" value="true" />
@@ -133,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780334734085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save).">
+      <option name="closed" value="true" />
+      <created>1780592027063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780592027064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +146,8 @@
     <MESSAGE value="chore: initial Spring Boot project stup" />
     <MESSAGE value="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable)." />
     <MESSAGE value="feat(persistence): implement product repositories and entity relationships&#10;&#10;- Add @JoinColumn relationships to the corresponding entities.&#10;- Create ProductoCrudRepository interface extending Spring Data CrudRepository.&#10;- Implement ProductoRepository class with getAll() method to fetch products." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(persistence): implement product repositories and entity relationships&#10;&#10;- Add @JoinColumn relationships to the corresponding entities.&#10;- Create ProductoCrudRepository interface extending Spring Data CrudRepository.&#10;- Implement ProductoRepository class with getAll() method to fetch products." />
+    <MESSAGE value="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save)." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

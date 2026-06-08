@@ -11,6 +11,7 @@ public interface ProductMaper {
             @Mapping(source = "categoria", target = "category"),
     })
     product toProduct(producto producto)
+        LIst<Product> toProducts(LIst<Producto> productos)
     @InheritInverseConfiguration
     @Mapping(target = "codigoBarras", ignore = true)
     producto toProducto(product product)
