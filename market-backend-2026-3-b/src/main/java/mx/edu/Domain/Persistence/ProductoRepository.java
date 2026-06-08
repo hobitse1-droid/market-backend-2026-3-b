@@ -32,7 +32,7 @@ public class ProductoRepository implements ProductRepository {
     //Guardar un producto
     public Product save(Product product){
         Producto producto = productMapper.toProducto(product);
-        return productocrudrepository.save(producto);
+        return productocrudrepository.save(product);
     }
 
     // Eliminar un producto por ID
