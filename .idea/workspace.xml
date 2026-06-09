@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save).">
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/domain/repository/ProductRepository.java" afterDir="false" />
+    <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning.">
+      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/domain/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/web.controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/ProductoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/mapper/ProductMaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/Persistence/mapper/ProductMaper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,8 @@
       <workItem from="1780329317350" duration="6126000" />
       <workItem from="1780587802561" duration="981000" />
       <workItem from="1780588869460" duration="4226000" />
-      <workItem from="1780936360630" duration="2817000" />
+      <workItem from="1780936360630" duration="3522000" />
+      <workItem from="1781020071865" duration="3222000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial Spring Boot project stup">
       <option name="closed" value="true" />
@@ -136,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780592027064</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save).">
+      <option name="closed" value="true" />
+      <created>1780939842295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780939842295</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning.">
+      <option name="closed" value="true" />
+      <created>1780939936465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780939936466</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +163,8 @@
     <MESSAGE value="feat(persistence): add base entities&#10; &#10;- Create core domain entities (Cliente, Categoria).&#10;- Add intermediate entity CompraProducto.&#10;- Implement composite key CompraProductoPK (@Embeddable and Serializable)." />
     <MESSAGE value="feat(persistence): implement product repositories and entity relationships&#10;&#10;- Add @JoinColumn relationships to the corresponding entities.&#10;- Create ProductoCrudRepository interface extending Spring Data CrudRepository.&#10;- Implement ProductoRepository class with getAll() method to fetch products." />
     <MESSAGE value="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save)." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implement ProductoRepository and custom query methods&#10;- Add custom query methods in ProductoCrudRepository (sorted category filter and low stock check).- Create ProductoRepository to wrap CRUD operations (getAll, getByCategoria, getEscasos, getProductoById, save)." />
+    <MESSAGE value="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
