@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15f64dc-c536-4c39-8f89-28d1cd6845c2" name="Changes" comment="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning.">
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/domain/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/web.controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/web.controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/market-backend-2026-3-b/src/main/java/mx/edu/Domain/web.controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,9 @@
       <workItem from="1780587802561" duration="981000" />
       <workItem from="1780588869460" duration="4226000" />
       <workItem from="1780936360630" duration="3522000" />
-      <workItem from="1781020071865" duration="3222000" />
+      <workItem from="1781020071865" duration="3556000" />
+      <workItem from="1781538388523" duration="1312000" />
+      <workItem from="1783440014994" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial Spring Boot project stup">
       <option name="closed" value="true" />
@@ -152,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780939936466</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning.">
+      <option name="closed" value="true" />
+      <created>1781025763267</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781025763267</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(repository): implement domain ProductRepository and map entities&#10; &#10;- Create ProductRepository interface in the domain layer with CRUD and custom operations.&#10;- Refactor ProductoRepository to implement the new ProductRepository interface.&#10;- Integrate ProductMapper to handle conversions between Producto (entity) and Product (domain).&#10;- Add @Repository annotation to ProductoRepository for Spring component scanning.">
+      <option name="closed" value="true" />
+      <created>1781025838864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1781025838864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
